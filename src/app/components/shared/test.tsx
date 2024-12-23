@@ -27,10 +27,7 @@ export default function Projects() {
           {projects.map((project, index) => (
             <Card key={index} className="bg-gray-800 border-gray-700">
               
-              <CardContent>
-                <CardTitle>{project.title}</CardTitle>
-                <CardDescription className="text-gray-300 mt-2">{project.description}</CardDescription>
-              </CardContent>
+             
               <CardFooter>
                 <button asChild>
                   <a href={project.link}>View Project</a>
