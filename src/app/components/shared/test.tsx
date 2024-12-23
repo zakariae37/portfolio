@@ -9,12 +9,7 @@ const projects = [
     image: "/placeholder.svg?height=200&width=300",
     link: "#"
   },
-  {
-    title: "Project 2",
-    description: "A brief description of Project 2",
-    image: "/placeholder.svg?height=200&width=300",
-    link: "#"
-  },
+ 
  
 ]
 
