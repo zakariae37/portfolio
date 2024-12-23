@@ -28,11 +28,7 @@ export default function Projects() {
             <Card key={index} className="bg-gray-800 border-gray-700">
               
              
-              <CardFooter>
-                <button asChild>
-                  <a href={project.link}>View Project</a>
-                </button>
-              </CardFooter>
+              <
             </Card>
           ))}
         </div>
