@@ -26,9 +26,7 @@ export default function Projects() {
         <div className="grid md:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <Card key={index} className="bg-gray-800 border-gray-700">
-              <CardHeader>
-                <Image src={project.image} alt={project.title} width={300} height={200} className="rounded-t-lg" />
-              </CardHeader>
+              
               <CardContent>
                 <CardTitle>{project.title}</CardTitle>
                 <CardDescription className="text-gray-300 mt-2">{project.description}</CardDescription>
