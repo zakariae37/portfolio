@@ -22,13 +22,13 @@ export default function Projects() {
   return (
     <section className="py-20 px-4 bg-gray-900">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold mb-8 text-center">My Projects</h2>
+        
         <div className="grid md:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <Card key={index} className="bg-gray-800 border-gray-700">
               
              
-              <
+              
             </Card>
           ))}
         </div>
