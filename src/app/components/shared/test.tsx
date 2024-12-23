@@ -15,12 +15,7 @@ const projects = [
     image: "/placeholder.svg?height=200&width=300",
     link: "#"
   },
-  {
-    title: "Project 3",
-    description: "A brief description of Project 3",
-    image: "/placeholder.svg?height=200&width=300",
-    link: "#"
-  }
+ 
 ]
 
 export default function Projects() {
